@@ -1,0 +1,27 @@
+[
+  {
+    "nameOfVenue": "Pavillion",
+    "PlaceID": "ABC001",
+    "maxCapacity": 50
+  },
+  {
+    "nameOfVenue": "Event Hall",
+    "PlaceID": "DEF002",
+    "maxCapacity": 100
+  },
+  {
+    "nameOfVenue": "dorm",
+    "PlaceID": "dorm123",
+    "maxCapacity": 200
+  },
+  {
+    "nameOfVenue": "dorm nya",
+    "PlaceID": "qwe",
+    "maxCapacity": 20
+  },
+  {
+    "nameOfVenue": "beach",
+    "PlaceID": "BISWIS20",
+    "maxCapacity": 1000
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "password": "test",
+  "email": "paula@chinoms.com",
+  "name": "Paula Joyce Ucol",
+  "address": "Cama Juan, San Antonio, Nueva Ecija",
+  "phoneNumber": "09098079798",
+  "age": 24,
+  "birthday": "1999-05-20T00:00:00",
+  "sex": "Female",
+  "listOfReservations": [
+    {
+      "eventType": "Wedding and Reception",
+      "venue": "Pavillion",
+      "placeID": "ABC001",
+      "startDate": "2024-05-25T15:38:23.0552043+08:00",
+      "days": 3,
+      "numGuests": 50,
+      "totalPayment": 60000.0,
+      "pricePerDay": 30000,
+      "services": [
+        "Catering",
+        "Clown"
+      ],
+      "paymentMode": "Paid",
+      "status": "Approved & Paid"
+    },
+    {
+      "eventType": "Social Celebrations",
+      "venue": "Pavillion",
+      "placeID": "ABC001",
+      "startDate": "2024-05-30T15:38:23.0552043+08:00",
+      "days": 3,
+      "numGuests": 25,
+      "totalPayment": 60000.0,
+      "pricePerDay": 30000,
+      "services": [
+        "Catering",
+        "Clown"
+      ],
+      "paymentMode": null,
+      "status": "Cancelled"
+    },
+    {
+      "eventType": "Social Celebrations",
+      "venue": "Pavillion",
+      "placeID": "ABC001",
+      "startDate": "2024-05-30T15:38:23.0552043+08:00",
+      "days": 1,
+      "numGuests": 25,
+      "totalPayment": 60000.0,
+      "pricePerDay": 30000,
+      "services": [
+        "Catering",
+        "Clown"
+      ],
+      "paymentMode": null,
+      "status": "Cancelled"
+    },
+    {
+      "eventType": "Corporate Meeting and Events",
+      "venue": "Pavillion",
+      "placeID": "ABC001",
+      "startDate": "2024-07-19T20:14:44.9043634+08:00",
+      "days": 1,
+      "numGuests": 30,
+      "totalPayment": 31000.0,
+      "pricePerDay": 10000,
+      "services": [
+        "Catering",
+        "Videoke"
+      ],
+      "paymentMode": "Paid",
+      "status": "Approved"
+    },
+    {
+      "eventType": "Social Celebrations",
+      "venue": "Event Hall",
+      "placeID": "DEF002",
+      "startDate": "2024-06-07T01:52:54.695",
+      "days": 4,
+      "numGuests": 80,
+      "totalPayment": 70000.0,
+      "pricePerDay": 40000,
+      "services": [
+        "Singer",
+        "Dancer",
+        "Videoke"
+      ],
+      "paymentMode": null,
+      "status": "Approved"
+    },
+    {
+      "eventType": "Wedding and Reception",
+      "venue": "Pavillion",
+      "placeID": "ABC001",
+      "startDate": "2024-05-21T15:48:59.5221895+08:00",
+      "days": 1,
+      "numGuests": 10,
+      "totalPayment": 10000.0,
+      "pricePerDay": 10000,
+      "services": [],
+      "paymentMode": null,
+      "status": "Pending"
+    }
+  ]
+}
