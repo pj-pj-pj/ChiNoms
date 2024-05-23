@@ -45,6 +45,7 @@ Partial Class Login_Your_Account
         ' 
         ' Panel1
         ' 
+        Panel1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Panel1.BackColor = Color.Transparent
         Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), Image)
         Panel1.BackgroundImageLayout = ImageLayout.Stretch
@@ -53,7 +54,6 @@ Partial Class Login_Your_Account
         Panel1.Controls.Add(lnlSignUp)
         Panel1.Controls.Add(lnlAdmin)
         Panel1.Controls.Add(btnLogin)
-        Panel1.Dock = DockStyle.Fill
         Panel1.Location = New Point(0, 0)
         Panel1.Margin = New Padding(2)
         Panel1.Name = "Panel1"
@@ -62,27 +62,30 @@ Partial Class Login_Your_Account
         ' 
         ' txtPass
         ' 
+        txtPass.Anchor = AnchorStyles.None
         txtPass.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         txtPass.Location = New Point(286, 262)
         txtPass.Margin = New Padding(2)
         txtPass.Name = "txtPass"
         txtPass.PlaceholderText = "Enter Password"
-        txtPass.Size = New Size(446, 39)
+        txtPass.Size = New Size(447, 39)
         txtPass.TabIndex = 8
         txtPass.UseSystemPasswordChar = True
         ' 
         ' txtEmailAdd
         ' 
+        txtEmailAdd.Anchor = AnchorStyles.None
         txtEmailAdd.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         txtEmailAdd.Location = New Point(286, 204)
         txtEmailAdd.Margin = New Padding(2)
         txtEmailAdd.Name = "txtEmailAdd"
         txtEmailAdd.PlaceholderText = "Enter Email Address"
-        txtEmailAdd.Size = New Size(446, 39)
+        txtEmailAdd.Size = New Size(447, 39)
         txtEmailAdd.TabIndex = 7
         ' 
         ' lnlSignUp
         ' 
+        lnlSignUp.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         lnlSignUp.AutoSize = True
         lnlSignUp.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lnlSignUp.LinkColor = Color.FromArgb(CByte(44), CByte(39), CByte(137))
@@ -96,6 +99,7 @@ Partial Class Login_Your_Account
         ' 
         ' lnlAdmin
         ' 
+        lnlAdmin.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         lnlAdmin.AutoSize = True
         lnlAdmin.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lnlAdmin.LinkColor = Color.FromArgb(CByte(44), CByte(39), CByte(137))
@@ -109,6 +113,7 @@ Partial Class Login_Your_Account
         ' 
         ' btnLogin
         ' 
+        btnLogin.Anchor = AnchorStyles.None
         btnLogin.BackgroundImage = CType(resources.GetObject("btnLogin.BackgroundImage"), Image)
         btnLogin.BackgroundImageLayout = ImageLayout.Zoom
         btnLogin.FlatAppearance.BorderSize = 0
@@ -116,7 +121,7 @@ Partial Class Login_Your_Account
         btnLogin.Location = New Point(286, 322)
         btnLogin.Margin = New Padding(2)
         btnLogin.Name = "btnLogin"
-        btnLogin.Size = New Size(446, 58)
+        btnLogin.Size = New Size(447, 36)
         btnLogin.TabIndex = 2
         btnLogin.UseVisualStyleBackColor = True
         ' 
@@ -127,6 +132,7 @@ Partial Class Login_Your_Account
         ClientSize = New Size(1017, 553)
         Controls.Add(Panel1)
         Controls.Add(Label1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
         Margin = New Padding(2)
         Name = "Login_Your_Account"
         StartPosition = FormStartPosition.CenterScreen

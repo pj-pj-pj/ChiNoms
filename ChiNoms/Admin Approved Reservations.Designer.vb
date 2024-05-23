@@ -324,7 +324,9 @@ Partial Class Admin_Approved_Reservations
         ClientSize = New Size(1017, 553)
         Controls.Add(pnlApproved)
         Controls.Add(Panel1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
         Margin = New Padding(2)
+        MaximizeBox = False
         Name = "Admin_Approved_Reservations"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Admin_Approved_Reservations"

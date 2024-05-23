@@ -613,14 +613,13 @@ Partial Class Event_Hall
         ' 
         ' imgVenueBtn
         ' 
-        imgVenueBtn.Enabled = False
+        imgVenueBtn.Image = CType(resources.GetObject("imgVenueBtn.Image"), Image)
         imgVenueBtn.Location = New Point(-3, 57)
         imgVenueBtn.Name = "imgVenueBtn"
         imgVenueBtn.Size = New Size(1022, 244)
         imgVenueBtn.TabIndex = 38
-        imgVenueBtn.Text = "VENUE IMAGE"
+        imgVenueBtn.TextImageRelation = TextImageRelation.TextBeforeImage
         imgVenueBtn.UseVisualStyleBackColor = True
-        imgVenueBtn.Visible = False
         ' 
         ' Event_Hall
         ' 
@@ -631,7 +630,9 @@ Partial Class Event_Hall
         Controls.Add(btnBack)
         Controls.Add(Panel3)
         Controls.Add(PictureBox1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
         Margin = New Padding(2)
+        MaximizeBox = False
         Name = "Event_Hall"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Event_Hall"

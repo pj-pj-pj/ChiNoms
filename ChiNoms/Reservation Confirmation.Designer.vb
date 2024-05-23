@@ -575,7 +575,9 @@ Partial Class Reservation_Confirmation
         Controls.Add(btnBacktoo)
         Controls.Add(btnConfirm)
         Controls.Add(Panel1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
         Margin = New Padding(2)
+        MaximizeBox = False
         Name = "Reservation_Confirmation"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Reservation_Confirmation"

@@ -24,6 +24,8 @@ Partial Class Add_Event
     Private Sub InitializeComponent()
         Label1 = New Label()
         pnlAddVenue = New Panel()
+        Button1 = New Button()
+        addImgBtn = New Button()
         txtPlaceID = New TextBox()
         txtCapacity = New TextBox()
         btnAddVenue = New Button()
@@ -50,21 +52,50 @@ Partial Class Add_Event
         ' pnlAddVenue
         ' 
         pnlAddVenue.BackColor = Color.FromArgb(CByte(247), CByte(234), CByte(243))
+        pnlAddVenue.Controls.Add(Button1)
+        pnlAddVenue.Controls.Add(addImgBtn)
         pnlAddVenue.Controls.Add(txtPlaceID)
         pnlAddVenue.Controls.Add(txtCapacity)
         pnlAddVenue.Controls.Add(btnAddVenue)
         pnlAddVenue.Controls.Add(Label6)
         pnlAddVenue.Controls.Add(Label3)
         pnlAddVenue.ForeColor = Color.White
-        pnlAddVenue.Location = New Point(30, 140)
+        pnlAddVenue.Location = New Point(30, 127)
         pnlAddVenue.Margin = New Padding(2)
         pnlAddVenue.Name = "pnlAddVenue"
-        pnlAddVenue.Size = New Size(724, 265)
+        pnlAddVenue.Size = New Size(724, 278)
         pnlAddVenue.TabIndex = 2
+        ' 
+        ' Button1
+        ' 
+        Button1.BackColor = Color.FromArgb(CByte(230), CByte(154), CByte(179))
+        Button1.FlatStyle = FlatStyle.Flat
+        Button1.Font = New Font("Sitka Small", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Button1.ForeColor = Color.Transparent
+        Button1.Location = New Point(196, 113)
+        Button1.Margin = New Padding(2)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(130, 65)
+        Button1.TabIndex = 9
+        Button1.UseVisualStyleBackColor = False
+        ' 
+        ' addImgBtn
+        ' 
+        addImgBtn.BackColor = Color.FromArgb(CByte(230), CByte(154), CByte(179))
+        addImgBtn.FlatStyle = FlatStyle.Flat
+        addImgBtn.Font = New Font("Sitka Small", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        addImgBtn.ForeColor = Color.Transparent
+        addImgBtn.Location = New Point(339, 113)
+        addImgBtn.Margin = New Padding(2)
+        addImgBtn.Name = "addImgBtn"
+        addImgBtn.Size = New Size(205, 65)
+        addImgBtn.TabIndex = 8
+        addImgBtn.Text = "Add Image"
+        addImgBtn.UseVisualStyleBackColor = False
         ' 
         ' txtPlaceID
         ' 
-        txtPlaceID.Location = New Point(355, 44)
+        txtPlaceID.Location = New Point(359, 33)
         txtPlaceID.Margin = New Padding(2)
         txtPlaceID.Name = "txtPlaceID"
         txtPlaceID.Size = New Size(185, 23)
@@ -72,7 +103,7 @@ Partial Class Add_Event
         ' 
         ' txtCapacity
         ' 
-        txtCapacity.Location = New Point(355, 83)
+        txtCapacity.Location = New Point(359, 72)
         txtCapacity.Margin = New Padding(2)
         txtCapacity.Name = "txtCapacity"
         txtCapacity.Size = New Size(185, 23)
@@ -84,7 +115,7 @@ Partial Class Add_Event
         btnAddVenue.FlatStyle = FlatStyle.Flat
         btnAddVenue.Font = New Font("Sitka Small", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         btnAddVenue.ForeColor = Color.Transparent
-        btnAddVenue.Location = New Point(192, 192)
+        btnAddVenue.Location = New Point(196, 191)
         btnAddVenue.Margin = New Padding(2)
         btnAddVenue.Name = "btnAddVenue"
         btnAddVenue.Size = New Size(348, 52)
@@ -95,9 +126,9 @@ Partial Class Add_Event
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Font = New Font("Sitka Small", 12.0F, FontStyle.Bold)
+        Label6.Font = New Font("Sitka Small", 12F, FontStyle.Bold)
         Label6.ForeColor = Color.Black
-        Label6.Location = New Point(192, 81)
+        Label6.Location = New Point(196, 70)
         Label6.Margin = New Padding(2, 0, 2, 0)
         Label6.Name = "Label6"
         Label6.Size = New Size(90, 23)
@@ -107,9 +138,9 @@ Partial Class Add_Event
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Sitka Small", 12.0F, FontStyle.Bold)
+        Label3.Font = New Font("Sitka Small", 12F, FontStyle.Bold)
         Label3.ForeColor = Color.Black
-        Label3.Location = New Point(192, 42)
+        Label3.Location = New Point(196, 31)
         Label3.Margin = New Padding(2, 0, 2, 0)
         Label3.Name = "Label3"
         Label3.Size = New Size(86, 23)
@@ -119,11 +150,11 @@ Partial Class Add_Event
         ' txtNewEvent
         ' 
         txtNewEvent.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txtNewEvent.Location = New Point(109, 66)
+        txtNewEvent.Location = New Point(106, 60)
         txtNewEvent.Margin = New Padding(2)
         txtNewEvent.Multiline = True
         txtNewEvent.Name = "txtNewEvent"
-        txtNewEvent.Size = New Size(576, 43)
+        txtNewEvent.Size = New Size(648, 50)
         txtNewEvent.TabIndex = 1
         ' 
         ' OpenFileDialog1
@@ -148,12 +179,14 @@ Partial Class Add_Event
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(230), CByte(154), CByte(179))
-        ClientSize = New Size(787, 416)
+        ClientSize = New Size(787, 428)
         Controls.Add(LinkLabel1)
         Controls.Add(txtNewEvent)
         Controls.Add(pnlAddVenue)
         Controls.Add(Label1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
         Margin = New Padding(2)
+        MaximizeBox = False
         Name = "Add_Event"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Add_Event"
@@ -177,4 +210,7 @@ Partial Class Add_Event
     Private Sub Add_Event_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Admin_Requests.Hide()
     End Sub
+
+    Friend WithEvents addImgBtn As Button
+    Friend WithEvents Button1 As Button
 End Class

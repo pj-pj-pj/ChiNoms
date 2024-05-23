@@ -1,0 +1,6 @@
+C:\Users\peaks\Documents\a\Code\ChiNoms\ChiNoms\ChiNoms.exe
+C:\Users\peaks\Documents\a\Code\ChiNoms\ChiNoms\ChiNoms.dll
+C:\Users\peaks\Documents\a\Code\ChiNoms\ChiNoms\ChiNoms.deps.json
+C:\Users\peaks\Documents\a\Code\ChiNoms\ChiNoms\ChiNoms.runtimeconfig.json
+C:\Users\peaks\Documents\a\Code\ChiNoms\ChiNoms\ChiNoms.pdb
+C:\Users\peaks\Documents\a\Code\ChiNoms\ChiNoms\Newtonsoft.Json.dll

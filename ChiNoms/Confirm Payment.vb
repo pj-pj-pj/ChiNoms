@@ -62,7 +62,7 @@ Public Class Confirm_Payment
         Pay2.Text = $"Pay {reservation.totalPayment}"
     End Sub
 
-    Function Successful()
+    Sub Successful()
         reservation.paymentMode = "Paid"
         reservation.status = "Approved & Paid"
 
@@ -74,10 +74,11 @@ Public Class Confirm_Payment
 
         Admin_Requests.LoadCustomers()
         Account.updateView()
+        Reservation_Confirmation.Dispose()
 
         Me.Hide()
         Processing_Payment.Show()
-    End Function
+    End Sub
 
     Private Sub Pay2_Click(sender As Object, e As EventArgs) Handles Pay2.Click
         If txtCardNum.TextLength = 16 AndAlso txtCVC.TextLength = 3 Then

@@ -62,7 +62,9 @@ Partial Class Processing_Payment
         ClientSize = New Size(1017, 553)
         Controls.Add(PictureBox1)
         Controls.Add(ProgressBar1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
         Margin = New Padding(2)
+        MaximizeBox = False
         Name = "Processing_Payment"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Processing_Payment"

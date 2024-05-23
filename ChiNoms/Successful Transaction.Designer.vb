@@ -54,9 +54,8 @@ Partial Class Successful_Transaction
         Label1.Font = New Font("Text Me One", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.Location = New Point(289, 239)
         Label1.Name = "Label1"
-        Label1.Size = New Size(454, 66)
+        Label1.Size = New Size(0, 33)
         Label1.TabIndex = 1
-        Label1.Text = "You will be logged out of the app" & vbCrLf & "to ensure our records are updated" & vbCrLf
         Label1.UseWaitCursor = True
         ' 
         ' Label2
@@ -81,7 +80,9 @@ Partial Class Successful_Transaction
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(PictureBox1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
         Margin = New Padding(2)
+        MaximizeBox = False
         Name = "Successful_Transaction"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Successful_Transaction"

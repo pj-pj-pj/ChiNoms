@@ -5,7 +5,7 @@ Imports Newtonsoft.Json
 
 Public Class Admin_Requests
     Public Property Customers As List(Of Customer)
-    Private ReadOnly directoryPath As String = "C:\Users\peaks\Downloads\ChiNoms\ChiNoms\bin\Debug\net8.0-windows"
+    Private ReadOnly directoryPath As String = "C:\Users\peaks\Documents\a\Code\ChiNoms\ChiNoms\bin\Debug\net8.0-windows"
     Dim reservationList As List(Of Reservation) = New List(Of Reservation)
 
     Public Sub New()

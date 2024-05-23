@@ -1,0 +1,11 @@
+{
+  "password": "456",
+  "email": "holle@gmail.com",
+  "name": "Holly A",
+  "address": "A St, Brgy Holly, Sto. Hally",
+  "phoneNumber": "09786545367",
+  "age": 224,
+  "birthday": "1800-05-20T00:00:00",
+  "sex": "Male",
+  "listOfReservations": []
+}

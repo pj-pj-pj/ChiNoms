@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\peaks\\Downloads\\ChiNoms\\ChiNoms\\ChiNoms.vbproj": {}
+    "C:\\Users\\peaks\\Documents\\a\\Code\\ChiNoms\\ChiNoms\\ChiNoms.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\peaks\\Downloads\\ChiNoms\\ChiNoms\\ChiNoms.vbproj": {
+    "C:\\Users\\peaks\\Documents\\a\\Code\\ChiNoms\\ChiNoms\\ChiNoms.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\peaks\\Downloads\\ChiNoms\\ChiNoms\\ChiNoms.vbproj",
+        "projectUniqueName": "C:\\Users\\peaks\\Documents\\a\\Code\\ChiNoms\\ChiNoms\\ChiNoms.vbproj",
         "projectName": "ChiNoms",
-        "projectPath": "C:\\Users\\peaks\\Downloads\\ChiNoms\\ChiNoms\\ChiNoms.vbproj",
+        "projectPath": "C:\\Users\\peaks\\Documents\\a\\Code\\ChiNoms\\ChiNoms\\ChiNoms.vbproj",
         "packagesPath": "C:\\Users\\peaks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\peaks\\Downloads\\ChiNoms\\ChiNoms\\obj\\",
+        "outputPath": "C:\\Users\\peaks\\Documents\\a\\Code\\ChiNoms\\ChiNoms\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\peaks\\AppData\\Roaming\\NuGet\\NuGet.Config",

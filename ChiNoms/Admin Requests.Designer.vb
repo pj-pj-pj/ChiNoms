@@ -335,7 +335,9 @@ Partial Class Admin_Requests
         ClientSize = New Size(1017, 553)
         Controls.Add(pnlRequests)
         Controls.Add(Panel1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
         Margin = New Padding(2)
+        MaximizeBox = False
         Name = "Admin_Requests"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Admin_Requests"

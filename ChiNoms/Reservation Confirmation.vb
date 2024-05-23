@@ -68,10 +68,6 @@ Public Class Reservation_Confirmation
         Return Math.Ceiling(Math.Max(numGuests, 50) / 50) * pricePer50
     End Function
 
-    Private Sub Reservation_Confirmation_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
     Private Sub btnBacktoo_Click(sender As Object, e As EventArgs) Handles btnBacktoo.Click
         Me.Hide()
         Event_Hall.Show()
@@ -85,11 +81,11 @@ Public Class Reservation_Confirmation
         End If
     End Sub
 
-    Private Sub Reservation_Confirmation_Shown(sender As Object, e As EventArgs) Handles MyBase.Shown
+    Private Sub Reservation_Confirmation_Shown(sender As Object, e As EventArgs) Handles MyBase.Load
         UpdateReservationDetails()
     End Sub
 
-    Private Sub UpdateReservationDetails()
+    Public Sub UpdateReservationDetails()
         Dim reservation = Form1.currentReservation
 
         cateringPrice = CalculateServiceCost(20000, reservation.numGuests)

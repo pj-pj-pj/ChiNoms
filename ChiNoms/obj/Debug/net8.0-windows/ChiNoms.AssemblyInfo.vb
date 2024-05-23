@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("ChiNoms"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53e25c39a9ffdc19087461e825af4f2aa724347a"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("ChiNoms"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("ChiNoms"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

@@ -23,8 +23,6 @@ Public Class Event_Hall
     Dim availedServices As New List(Of String)()
 
     Private Sub Event_Hall_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load
-        Admin_Requests.Hide()
-
         LoadEventVenues()
         UpdateServicePrices()
         UpdatePriceLabels()
@@ -36,9 +34,6 @@ Public Class Event_Hall
         cbSinger.Checked = False
         cbDancer.Checked = False
         cbKaraoke.Checked = False
-
-        Hide()
-        Admin_Requests.Show()
     End Sub
 
     Private Sub LoadEventVenues()
@@ -90,7 +85,6 @@ Public Class Event_Hall
     End Sub
 
     Private Sub btnReviewReservation_Click(sender As Object, e As EventArgs) Handles btnReviewReservation.Click
-
         Dim days As Integer
         Dim numGuests As Integer
         Dim totalPayment As Decimal
@@ -101,6 +95,11 @@ Public Class Event_Hall
 
             Me.Hide()
             Reservation_Confirmation.btnBacktoo.Visible = True
+            Reservation_Confirmation.Label12.Visible = False
+            Reservation_Confirmation.Button1.Visible = False
+
+            Reservation_Confirmation.lblPrice.Text = lblprice.Text
+            Reservation_Confirmation.UpdateReservationDetails()
             Reservation_Confirmation.Show()
         End If
     End Sub
@@ -178,6 +177,12 @@ Public Class Event_Hall
         If selectedVenue IsNot Nothing Then
             Label40.Text = selectedVenue("PlaceID").ToString()
             lblMaxCapacity.Text = selectedVenue("maxCapacity").ToString()
+            Dim imgPath As String = selectedVenue("img").ToString()
+            If Not String.IsNullOrEmpty(imgPath) AndAlso File.Exists(imgPath) Then
+                imgVenueBtn.Image = Image.FromFile(imgPath)
+            Else
+                imgVenueBtn.Image = Image.FromFile("a.jpg")
+            End If
         End If
 
         UpdateTotalPrice()
@@ -211,6 +216,8 @@ Public Class Event_Hall
             cbSinger.Checked = False
             cbDancer.Checked = False
             cbKaraoke.Checked = False
+
+            Reservation_Confirmation.Dispose()
 
             Me.Hide()
             Account.Show()

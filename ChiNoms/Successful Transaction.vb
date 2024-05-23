@@ -12,7 +12,7 @@ Public Class Successful_Transaction
     Private Sub Successful_Transaction_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Enabled = True
         Timer1.Start()
-        Timer1.Interval = 4000
+        Timer1.Interval = 1500
     End Sub
 
 End Class

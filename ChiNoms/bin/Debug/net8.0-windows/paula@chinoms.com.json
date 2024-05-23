@@ -25,38 +25,6 @@
       "status": "Approved & Paid"
     },
     {
-      "eventType": "Social Celebrations",
-      "venue": "Pavillion",
-      "placeID": "ABC001",
-      "startDate": "2024-05-30T15:38:23.0552043+08:00",
-      "days": 3,
-      "numGuests": 25,
-      "totalPayment": 60000.0,
-      "pricePerDay": 30000,
-      "services": [
-        "Catering",
-        "Clown"
-      ],
-      "paymentMode": null,
-      "status": "Cancelled"
-    },
-    {
-      "eventType": "Social Celebrations",
-      "venue": "Pavillion",
-      "placeID": "ABC001",
-      "startDate": "2024-05-30T15:38:23.0552043+08:00",
-      "days": 1,
-      "numGuests": 25,
-      "totalPayment": 60000.0,
-      "pricePerDay": 30000,
-      "services": [
-        "Catering",
-        "Clown"
-      ],
-      "paymentMode": null,
-      "status": "Cancelled"
-    },
-    {
       "eventType": "Corporate Meeting and Events",
       "venue": "Pavillion",
       "placeID": "ABC001",
@@ -69,8 +37,8 @@
         "Catering",
         "Videoke"
       ],
-      "paymentMode": "Paid",
-      "status": "Approved"
+      "paymentMode": null,
+      "status": "Pending"
     },
     {
       "eventType": "Social Celebrations",
@@ -90,17 +58,55 @@
       "status": "Approved"
     },
     {
+      "eventType": "Corporate Meeting and Events",
+      "venue": "The Bazaar",
+      "placeID": "ABCD1",
+      "startDate": "2024-06-08T18:47:15.214",
+      "days": 1,
+      "numGuests": 150,
+      "totalPayment": 99000.0,
+      "pricePerDay": 10000,
+      "services": [
+        "Catering",
+        "Singer",
+        "Videoke"
+      ],
+      "paymentMode": null,
+      "status": "Pending"
+    },
+    {
       "eventType": "Wedding and Reception",
       "venue": "Pavillion",
       "placeID": "ABC001",
-      "startDate": "2024-05-21T15:48:59.5221895+08:00",
+      "startDate": "2024-05-21T19:53:27.8359838+08:00",
       "days": 1,
       "numGuests": 10,
-      "totalPayment": 10000.0,
+      "totalPayment": 54000.0,
       "pricePerDay": 10000,
-      "services": [],
+      "services": [
+        "Catering",
+        "Clown",
+        "Dancer",
+        "Singer"
+      ],
       "paymentMode": null,
-      "status": "Pending"
+      "status": "Cancelled"
+    },
+    {
+      "eventType": "Wedding and Reception",
+      "venue": "Event Hall",
+      "placeID": "DEF002",
+      "startDate": "2024-05-23T14:15:54.8960818+08:00",
+      "days": 4,
+      "numGuests": 10,
+      "totalPayment": 57000.0,
+      "pricePerDay": 40000,
+      "services": [
+        "Singer",
+        "Clown"
+      ],
+      "paymentMode": null,
+      "status": "Approved"
     }
   ]
 }

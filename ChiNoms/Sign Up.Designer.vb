@@ -194,7 +194,9 @@ Partial Class Sign_Up
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1017, 553)
         Controls.Add(Panel1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
         Margin = New Padding(2)
+        MaximizeBox = False
         Name = "Sign_Up"
         Text = "Sign_Up"
         Panel1.ResumeLayout(False)

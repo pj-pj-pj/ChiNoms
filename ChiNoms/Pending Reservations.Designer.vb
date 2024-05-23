@@ -322,6 +322,8 @@ Partial Class Pending_Reservations
         ClientSize = New Size(1022, 554)
         Controls.Add(pnlCancelled)
         Controls.Add(Panel1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
+        MaximizeBox = False
         Name = "Pending_Reservations"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Pending_Reservations"

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ChiNoms</id>
+    <version>1.0.0</version>
+    <authors>ChiNoms</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="53e25c39a9ffdc19087461e825af4f2aa724347a" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net8.0-windows7.0/chinoms_logo.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\peaks\Documents\a\Code\ChiNoms\ChiNoms\bin\Debug\net8.0-windows\ChiNoms.runtimeconfig.json" target="lib\net8.0-windows7.0\ChiNoms.runtimeconfig.json" />
+    <file src="C:\Users\peaks\Documents\a\Code\ChiNoms\ChiNoms\bin\Debug\net8.0-windows\ChiNoms.dll" target="lib\net8.0-windows7.0\ChiNoms.dll" />
+    <file src="C:\Users\peaks\Documents\a\Code\ChiNoms\ChiNoms\chinoms_logo.ico" target="content\chinoms_logo.ico" />
+    <file src="C:\Users\peaks\Documents\a\Code\ChiNoms\ChiNoms\chinoms_logo.ico" target="contentFiles\any\net8.0-windows7.0\chinoms_logo.ico" />
+  </files>
+</package>

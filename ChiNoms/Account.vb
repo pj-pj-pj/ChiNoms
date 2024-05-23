@@ -11,12 +11,22 @@ Public Class Account
 
     Private Sub btnBack_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles btnBack.LinkClicked
         Me.Hide()
-        Admin_Requests.Hide()
         Event_Hall.Show()
-        Admin_Requests.Hide()
+
+        With Event_Hall
+            .cbDaysAmount.SelectedIndex = 0
+            .cbEventVenue.SelectedIndex = 0
+            .cbTypeOfEvent.SelectedIndex = 0
+            .cbCatering.Checked = False
+            .cbClown.Checked = False
+            .cbSinger.Checked = False
+            .cbDancer.Checked = False
+            .cbKaraoke.Checked = False
+        End With
     End Sub
 
     Private Sub Account_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Reservation_Confirmation.Dispose()
         lblAddress.Width = 200
 
         Dim user = Form1.currentUser
@@ -38,12 +48,12 @@ Public Class Account
         updateView()
     End Sub
 
-    Function updateView()
+    Sub updateView()
         DataGridView1.Rows.Clear()
         For Each reservation In Form1.currentUser.listOfReservations
             DataGridView1.Rows.Add(reservation.eventType, reservation.status, reservation.days, reservation.totalPayment, ">>")
         Next
-    End Function
+    End Sub
 
     Private Sub DataGridView1_CellContentClick_1(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
         If e.ColumnIndex = 4 AndAlso e.RowIndex >= 0 AndAlso e.RowIndex < Form1.currentUser.listOfReservations.Count Then
@@ -58,7 +68,6 @@ Public Class Account
                 .Label12.Visible = True
                 If Form1.currentReservation.status = "Approved" Then
                     .Label12.Text = "----------- This reservation has been approved and -----------" & Environment.NewLine & "waiting for payment"
-                    .Label12.Text = "---- This reservation is pending and waiting for approval ----"
                     .Button1.Visible = True
                 ElseIf Form1.currentReservation.status = "Approved & Paid" Then
                     .Label12.Text = "--------- This reservation has been approved and paid --------"

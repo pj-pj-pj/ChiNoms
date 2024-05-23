@@ -393,7 +393,9 @@ Partial Class Account
         Controls.Add(PictureBox1)
         Controls.Add(Panel2)
         Controls.Add(Panel1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
         Margin = New Padding(2)
+        MaximizeBox = False
         Name = "Account"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Account"

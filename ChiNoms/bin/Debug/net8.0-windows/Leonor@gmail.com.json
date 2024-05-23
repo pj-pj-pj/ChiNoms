@@ -1,0 +1,57 @@
+{
+  "password": "Leashi123",
+  "email": "Leonor@gmail.com",
+  "name": "Leonor Soriano",
+  "address": "Victoria, Tarlac",
+  "phoneNumber": "09816862327",
+  "age": 47,
+  "birthday": "1977-05-14T00:00:00",
+  "sex": "Female",
+  "listOfReservations": [
+    {
+      "eventType": "Wedding and Reception",
+      "venue": "The Bazaar",
+      "placeID": "ABCD1",
+      "startDate": "2024-12-29T20:32:27.982",
+      "days": 5,
+      "numGuests": 59,
+      "totalPayment": 118000.0,
+      "pricePerDay": 50000,
+      "services": [
+        "Catering",
+        "Singer",
+        "Dancer"
+      ],
+      "paymentMode": "Paid",
+      "status": "Approved & Paid"
+    },
+    {
+      "eventType": "Corporate Meeting and Events",
+      "venue": "Pavillion",
+      "placeID": "ABC001",
+      "startDate": "2024-09-12T21:04:46.299",
+      "days": 1,
+      "numGuests": 11,
+      "totalPayment": 10000.0,
+      "pricePerDay": 10000,
+      "services": [],
+      "paymentMode": null,
+      "status": "Cancelled"
+    },
+    {
+      "eventType": "Social Celebrations",
+      "venue": "Event Hall",
+      "placeID": "DEF002",
+      "startDate": "2024-09-25T21:21:04.398",
+      "days": 1,
+      "numGuests": 20,
+      "totalPayment": 17000.0,
+      "pricePerDay": 10000,
+      "services": [
+        "Singer"
+      ],
+      "paymentMode": null,
+      "status": "Pending"
+    }
+  ]
+}

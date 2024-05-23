@@ -2,26 +2,25 @@
   {
     "nameOfVenue": "Pavillion",
     "PlaceID": "ABC001",
-    "maxCapacity": 50
+    "maxCapacity": 50,
+    "img": "C:\\Users\\peaks\\Documents\\a\\Code\\ChiNoms\\ChiNoms\\bin\\Debug\\net8.0-windows\\a (1).jpg"
   },
   {
     "nameOfVenue": "Event Hall",
     "PlaceID": "DEF002",
-    "maxCapacity": 100
+    "maxCapacity": 100,
+    "img": "C:\\Users\\peaks\\Documents\\a\\Code\\ChiNoms\\ChiNoms\\bin\\Debug\\net8.0-windows\\a (6).jpg"
   },
   {
-    "nameOfVenue": "dorm",
-    "PlaceID": "dorm123",
-    "maxCapacity": 200
+    "nameOfVenue": "The Bazaar",
+    "PlaceID": "ABCD1",
+    "maxCapacity": 100,
+    "img": "C:\\Users\\peaks\\Pictures\\dc9fq1m-b29ab999-5f2c-4321-8633-56688eacee22.png"
   },
   {
-    "nameOfVenue": "dorm nya",
-    "PlaceID": "qwe",
-    "maxCapacity": 20
-  },
-  {
-    "nameOfVenue": "beach",
-    "PlaceID": "BISWIS20",
-    "maxCapacity": 1000
+    "nameOfVenue": "Example",
+    "PlaceID": "t123",
+    "maxCapacity": 50,
+    "img": "C:\\Users\\peaks\\Pictures\\Saved Pictures\\19fc2eb3-209b-46c9-9f47-1f61aa8026c9.jpg"
   }
 ]

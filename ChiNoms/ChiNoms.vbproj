@@ -6,7 +6,12 @@
     <StartupObject>ChiNoms.My.MyApplication</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
+    <ApplicationIcon>chinoms_logo.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="chinoms_logo.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Import Include="System.Data" />

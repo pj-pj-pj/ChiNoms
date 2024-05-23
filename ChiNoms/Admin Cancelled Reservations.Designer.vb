@@ -322,7 +322,9 @@ Partial Class Admin_Cancelled_Reservations
         ClientSize = New Size(1017, 553)
         Controls.Add(pnlCancelled)
         Controls.Add(Panel1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
         Margin = New Padding(2)
+        MaximizeBox = False
         Name = "Admin_Cancelled_Reservations"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Admin_Cancelled_Reservations"

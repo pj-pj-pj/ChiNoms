@@ -564,6 +564,8 @@ Partial Class Admin_Check_Reservation
         Controls.Add(approveBtn)
         Controls.Add(btnBacktoo)
         Controls.Add(Panel1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
+        MaximizeBox = False
         Name = "Admin_Check_Reservation"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Admin_Check_Reservation"

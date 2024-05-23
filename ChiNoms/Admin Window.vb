@@ -176,6 +176,10 @@ Public Class Admin_Window
         If selectedVenue IsNot Nothing Then
             Label40.Text = selectedVenue("PlaceID").ToString()
             lblMaxCapacity.Text = selectedVenue("maxCapacity").ToString()
+            Dim imgPath As String = selectedVenue("img").ToString()
+            If Not String.IsNullOrEmpty(imgPath) AndAlso File.Exists(imgPath) Then
+                imgVenueBtnAdmin.Image = Image.FromFile(imgPath)
+            End If
         End If
 
         UpdateTotalPrice()
@@ -197,9 +201,5 @@ Public Class Admin_Window
     Private Sub viewEventBtn_Click(sender As Object, e As EventArgs) Handles viewEventBtn.Click
         Me.Hide()
         Add_Event.Show()
-    End Sub
-
-    Private Sub Label37_Click(sender As Object, e As EventArgs) Handles Label37.Click
-
     End Sub
 End Class

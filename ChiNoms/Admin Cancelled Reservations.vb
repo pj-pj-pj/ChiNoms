@@ -5,7 +5,7 @@ Imports Newtonsoft.Json
 
 Public Class Admin_Cancelled_Reservations
     Public Property Customers As List(Of Customer)
-    Private ReadOnly directoryPath As String = "C:\Users\peaks\Downloads\ChiNoms\ChiNoms\bin\Debug\net8.0-windows"
+    Private ReadOnly directoryPath As String = "C:\Users\peaks\Documents\a\Code\ChiNoms\ChiNoms\bin\Debug\net8.0-windows"
     Dim reservationList As List(Of Reservation) = New List(Of Reservation)
 
     Public Sub New()
@@ -94,5 +94,9 @@ Public Class Admin_Cancelled_Reservations
     Private Sub btnPending_Click(sender As Object, e As EventArgs) Handles btnPending.Click
         Me.Hide()
         Pending_Reservations.Show()
+    End Sub
+
+    Private Sub Admin_Cancelled_Reservations_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

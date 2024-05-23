@@ -67,6 +67,7 @@ Partial Class Admin_Window
         btnBack = New LinkLabel()
         PictureBox1 = New PictureBox()
         Label9 = New Label()
+        imgVenueBtnAdmin = New Button()
         Panel3.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
@@ -123,7 +124,7 @@ Partial Class Admin_Window
         ' 
         ' viewEventBtn
         ' 
-        viewEventBtn.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
+        viewEventBtn.Anchor = AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         viewEventBtn.BackColor = Color.PaleVioletRed
         viewEventBtn.Font = New Font("Sitka Small", 11.249999F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
         viewEventBtn.ForeColor = SystemColors.ButtonFace
@@ -665,16 +666,30 @@ Partial Class Admin_Window
         Label9.TabIndex = 74
         Label9.Text = "Event Reservation Preview:"
         ' 
+        ' imgVenueBtnAdmin
+        ' 
+        imgVenueBtnAdmin.BackColor = Color.Transparent
+        imgVenueBtnAdmin.Image = CType(resources.GetObject("imgVenueBtnAdmin.Image"), Image)
+        imgVenueBtnAdmin.Location = New Point(-4, 45)
+        imgVenueBtnAdmin.Name = "imgVenueBtnAdmin"
+        imgVenueBtnAdmin.Size = New Size(1022, 244)
+        imgVenueBtnAdmin.TabIndex = 75
+        imgVenueBtnAdmin.TextImageRelation = TextImageRelation.TextBeforeImage
+        imgVenueBtnAdmin.UseVisualStyleBackColor = False
+        ' 
         ' Admin_Window
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1017, 581)
+        Controls.Add(imgVenueBtnAdmin)
         Controls.Add(Label9)
         Controls.Add(Panel3)
         Controls.Add(btnBack)
         Controls.Add(PictureBox1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
         Margin = New Padding(2)
+        MaximizeBox = False
         Name = "Admin_Window"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Admin_Window"
@@ -729,4 +744,5 @@ Partial Class Admin_Window
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label9 As Label
     Public WithEvents viewEventBtn As Button
+    Friend WithEvents imgVenueBtnAdmin As Button
 End Class

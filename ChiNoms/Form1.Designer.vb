@@ -44,7 +44,7 @@ Partial Class Form1
         ' 
         ' btnBookNow
         ' 
-        btnBookNow.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
+        btnBookNow.Anchor = AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         btnBookNow.BackColor = Color.GhostWhite
         btnBookNow.FlatAppearance.BorderSize = 0
         btnBookNow.FlatStyle = FlatStyle.Popup
@@ -65,10 +65,11 @@ Partial Class Form1
         ClientSize = New Size(1017, 553)
         Controls.Add(btnBookNow)
         Controls.Add(PictureBox1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
         Margin = New Padding(2)
         Name = "Form1"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Form1"
+        Text = "ChiNoms"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub

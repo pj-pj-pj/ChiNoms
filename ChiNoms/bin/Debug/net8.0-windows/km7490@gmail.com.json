@@ -1,0 +1,31 @@
+{
+  "password": "km74901",
+  "email": "km7490@gmail.com",
+  "name": "Kathleen",
+  "address": "km7490@gmail.com",
+  "phoneNumber": "09123456789",
+  "age": 20,
+  "birthday": "2003-12-20T00:00:00",
+  "sex": "Female",
+  "listOfReservations": [
+    {
+      "eventType": "Wedding and Reception",
+      "venue": "Pavillion",
+      "placeID": "ABC001",
+      "startDate": "2024-05-24T18:53:52.695",
+      "days": 1,
+      "numGuests": 150,
+      "totalPayment": 155000.0,
+      "pricePerDay": 10000,
+      "services": [
+        "Catering",
+        "Clown",
+        "Singer",
+        "Videoke",
+        "Dancer"
+      ],
+      "paymentMode": "Paid",
+      "status": "Approved & Paid"
+    }
+  ]
+}

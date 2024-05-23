@@ -438,7 +438,9 @@ Partial Class Confirm_Payment
         ClientSize = New Size(1017, 553)
         Controls.Add(pnlGcash)
         Controls.Add(Panel1)
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
         Margin = New Padding(2)
+        MaximizeBox = False
         Name = "Confirm_Payment"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Confirm_Payment"
