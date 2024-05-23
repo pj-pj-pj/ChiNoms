@@ -198,7 +198,8 @@ Partial Class Sign_Up
         Margin = New Padding(2)
         MaximizeBox = False
         Name = "Sign_Up"
-        Text = "Sign_Up"
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "ChiNoms"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         ResumeLayout(False)

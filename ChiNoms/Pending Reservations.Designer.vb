@@ -326,7 +326,7 @@ Partial Class Pending_Reservations
         MaximizeBox = False
         Name = "Pending_Reservations"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Pending_Reservations"
+        Text = "ChiNoms Admin"
         pnlCancelled.ResumeLayout(False)
         pnlCancelled.PerformLayout()
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()

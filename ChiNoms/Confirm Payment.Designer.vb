@@ -443,7 +443,7 @@ Partial Class Confirm_Payment
         MaximizeBox = False
         Name = "Confirm_Payment"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Confirm_Payment"
+        Text = "ChiNoms"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()

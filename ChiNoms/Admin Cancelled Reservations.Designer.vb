@@ -327,7 +327,7 @@ Partial Class Admin_Cancelled_Reservations
         MaximizeBox = False
         Name = "Admin_Cancelled_Reservations"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Admin_Cancelled_Reservations"
+        Text = "ChiNoms Admin"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()

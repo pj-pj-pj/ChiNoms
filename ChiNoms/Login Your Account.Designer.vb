@@ -136,7 +136,7 @@ Partial Class Login_Your_Account
         Margin = New Padding(2)
         Name = "Login_Your_Account"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Login_Your_Account"
+        Text = "ChiNoms"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         ResumeLayout(False)

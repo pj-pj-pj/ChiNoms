@@ -105,7 +105,7 @@ Partial Class Login_as_Admin
         MaximizeBox = False
         Name = "Login_as_Admin"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Login_as_Admin"
+        Text = "ChiNoms"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         ResumeLayout(False)

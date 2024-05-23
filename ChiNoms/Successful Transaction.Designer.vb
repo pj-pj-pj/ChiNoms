@@ -85,7 +85,7 @@ Partial Class Successful_Transaction
         MaximizeBox = False
         Name = "Successful_Transaction"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Successful_Transaction"
+        Text = "ChiNoms"
         TopMost = True
         UseWaitCursor = True
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()

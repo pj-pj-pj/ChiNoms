@@ -692,7 +692,7 @@ Partial Class Admin_Window
         MaximizeBox = False
         Name = "Admin_Window"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Admin_Window"
+        Text = "ChiNoms Admin"
         Panel3.ResumeLayout(False)
         Panel3.PerformLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()

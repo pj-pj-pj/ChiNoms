@@ -117,7 +117,7 @@ Partial Class Sign_Up2
         Margin = New Padding(2)
         MaximizeBox = False
         Name = "Sign_Up2"
-        Text = "Sign_Up2"
+        Text = "ChiNoms"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         ResumeLayout(False)

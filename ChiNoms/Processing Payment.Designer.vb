@@ -67,7 +67,7 @@ Partial Class Processing_Payment
         MaximizeBox = False
         Name = "Processing_Payment"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Processing_Payment"
+        Text = "ChiNoms"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub

@@ -189,7 +189,7 @@ Partial Class Add_Event
         MaximizeBox = False
         Name = "Add_Event"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Add_Event"
+        Text = "ChiNoms Admin"
         pnlAddVenue.ResumeLayout(False)
         pnlAddVenue.PerformLayout()
         ResumeLayout(False)

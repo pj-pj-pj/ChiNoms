@@ -340,7 +340,7 @@ Partial Class Admin_Requests
         MaximizeBox = False
         Name = "Admin_Requests"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Admin_Requests"
+        Text = "ChiNoms Admin"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()

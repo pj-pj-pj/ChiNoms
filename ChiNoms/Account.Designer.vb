@@ -398,7 +398,7 @@ Partial Class Account
         MaximizeBox = False
         Name = "Account"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Account"
+        Text = "ChiNoms"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()

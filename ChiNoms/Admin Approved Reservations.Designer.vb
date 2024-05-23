@@ -329,7 +329,7 @@ Partial Class Admin_Approved_Reservations
         MaximizeBox = False
         Name = "Admin_Approved_Reservations"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Admin_Approved_Reservations"
+        Text = "ChiNoms Admin"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()

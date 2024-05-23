@@ -568,7 +568,7 @@ Partial Class Admin_Check_Reservation
         MaximizeBox = False
         Name = "Admin_Check_Reservation"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Admin_Check_Reservation"
+        Text = "ChiNoms Admin"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()

@@ -580,7 +580,7 @@ Partial Class Reservation_Confirmation
         MaximizeBox = False
         Name = "Reservation_Confirmation"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Reservation_Confirmation"
+        Text = "ChiNoms"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()

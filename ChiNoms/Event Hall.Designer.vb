@@ -635,7 +635,7 @@ Partial Class Event_Hall
         MaximizeBox = False
         Name = "Event_Hall"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Event_Hall"
+        Text = "ChiNoms"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         Panel3.ResumeLayout(False)
         Panel3.PerformLayout()
